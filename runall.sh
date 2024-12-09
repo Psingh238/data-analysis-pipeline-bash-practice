@@ -25,3 +25,6 @@ python scripts/plotcount.py \
 python scripts/plotcount.py \
     --input_file=results/sierra.dat \
     --output_file=results/figure/sierra.png
+
+# Renders a report
+quarto render report/count_report.qmd --to html
